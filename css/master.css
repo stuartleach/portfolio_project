@@ -1,0 +1,170 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+html, body {
+  margin: 0;
+  color: #7d97ad;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#swatch1 {
+  background-color: #02b3e4;
+}
+
+#swatch2 {
+  background-color: #2d3c49;
+}
+
+#swatch3 {
+  background-color: #7d97ad;
+}
+
+.work img {
+  /*width: 100%;*/
+  /*max-height: 200px;*/
+  max-width: 80%;
+  float: none;
+  border-radius: 10px;
+}
+
+.work {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*.work img, span{
+  float: left;
+}*/
+
+.work {
+  margin: 0 auto;
+  /*height: 200px;*/
+}
+
+.workdescription h4 {
+  padding-top: 20px;
+}
+
+.work a {
+  color: white;
+}
+
+.featured h3 {
+  padding-top: 30px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.work {
+  float: left;
+  padding-left: ;
+  padding-top: 50px;
+}
+
+aside .col-sm-1-12 {
+  padding-left: 20px;
+}
+
+
+/*.colorlist {
+  float: right;
+}*/
+
+.swatch {
+  text-align: right;
+  margin-bottom: 30px;
+  display: block;
+}
+
+aside {
+  margin: 0;
+  /*padding-top: 150px;*/
+  padding-right: 20px;
+  float: left;
+  width: 15%;
+  height: 100%;
+  /*display: flex;*/
+}
+
+logo {
+  float: left;
+  margin-left: 20%;
+}
+
+.swatch {
+  width: 100%;
+  height: 100%;
+}
+
+#swatch1, #swatch2, #swatch3 {
+  height: 75px;
+  width: 75px;
+}
+
+.jumbotron {
+  background-color: white;
+  padding: 0;
+  padding-top: 50px;
+}
+
+@media all and (max-width: 543px) {
+  .figure-img {
+    display: none;
+  }
+  /*aside {
+    display:none;
+  }*/
+}
+
+.label .label-default {
+  background-color: white;
+  color: black;
+}
+
+.work .row {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 543px) {
+  .col-sm-9 h3 {
+    text-align: center;
+  }
+  .work {
+    float: none;
+  }
+  .top-row {
+    display: none;
+  }
+}
+
+.label-default {
+  background-color: white;
+}
+
+.label-default a {
+  color: #2d3c49;
+  font-weight: 200;
+}
+
+@media (min-width: 544px) {
+  /*a {
+    font-size: .8em;
+  }*/
+}
+
+@media (max-width: 770px) {
+  logo {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+}
