@@ -160,6 +160,10 @@ logo {
   }*/
 }
 
+.label {
+  font-size: 100%;
+}
+
 @media (max-width: 770px) {
   logo {
     display: none;
